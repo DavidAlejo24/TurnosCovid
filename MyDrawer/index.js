@@ -55,7 +55,6 @@ function MyDrawer() {
         <Stack.Screen name="Perfil" component={UsuarioScreen} />
         <Stack.Screen name="Administrador" component={AdministradorScreen} />
         <Stack.Screen name="Geolocalizacion" component={GeolocalizacionScreen} />
-        
       </Stack.Navigator>
     </NavigationContainer>
   );
