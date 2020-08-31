@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "clean-run-android": "cd android && gradlew clean && cd .. && react-native run-android"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
@@ -17,6 +18,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-native": "0.63.2",
+    "react-native-bootstrap-styles": "^0.4.5-0-j",
     "react-native-elements": "^2.3.1",
     "react-native-gesture-handler": "^1.7.0",
     "react-native-maps": "0.27.1",
