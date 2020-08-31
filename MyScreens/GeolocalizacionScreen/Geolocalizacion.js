@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
-import Demo1 from './Demo1';
+//import Demo1 from './Demo1';
 /*
 export default function GeolocalizacionScreen(props) {    
     return (
@@ -35,7 +35,7 @@ export default class GeolocalizacionScreen extends React.Component {
           
           <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
             <Text style={{ fontSize: 20 }}>Ubicacion del paciente</Text>
-          <Demo1 props={this.props}/>
+          
         </View>
     );
 

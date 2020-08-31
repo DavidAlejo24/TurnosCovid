@@ -29,7 +29,7 @@ function UsuarioScreen() {
     </View>
   );
 }
-function AdministradorScreen(props) {
+function AdministradorScreen(props) { /*ventana principal*/
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text style={{ fontSize: 20 }}>Menu Administrador</Text>
@@ -54,7 +54,7 @@ function MyDrawer() {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Perfil" component={UsuarioScreen} />
         <Stack.Screen name="Administrador" component={AdministradorScreen} />
-        <Stack.Screen name="Geolocalizacion" component={GeolocalizacionScreen} />
+        <Stack.Screen name="Geolocalizacion" component={GeolocalizacionScreen} /> 
       </Stack.Navigator>
     </NavigationContainer>
   );
